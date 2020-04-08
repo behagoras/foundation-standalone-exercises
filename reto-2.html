@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0/dist/css/foundation.min.css">
+  <style>
+    .grid-x, .grid-y {
+      background-color: #74b9ff;
+    }
+    div[class^="cell"]{
+      color: white;
+    }
+    .grid-y .cell{
+      background-color: #e84393;
+      border: 1px solid #0984e3;
+      color: white;
+    }
+    .grid-x .cell{
+      background-color: #0984e3;
+      border: 1px solid #e84393;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-y grid-margin-y grid-padding-y grid-padding-x" style="height: 400px;">
+      <div class="cell large-2 medium-auto small-6">Columna 1</div>
+      <div class="cell large-4 medium-auto small-4">Columna 2</div>
+      <div class="cell large-6 medium-auto small-2">Columna 3</div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0/dist/js/foundation.min.js"></script>
+</body>
+</html>
